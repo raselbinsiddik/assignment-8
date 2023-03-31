@@ -6,9 +6,10 @@
     "personImg": "https://secure.gravatar.com/avatar/b509b21d5c9a269292f335db088a6ce3?s=32&d=mm&r=g",
     "publishDate":"August 5, 2022",
     "title":"How to get your first job as a self-taught programmer",
-    "time": "9 minute read",
+    "time": 9,
     "marks": "Mark as read",
-    "blogs":"Master windows power platform and become an in demand!"
+    "blogs":"Master windows power platform and become an in demand!",
+    "quantity": 1
   },
   {
     "id": 2,
@@ -17,9 +18,10 @@
     "personImg": "https://avatar.freepik.com/6726661.jpg",
     "publishDate":"April 2,2022",
     "title":"How to get your first job as a self-taught programmer",
-    "time": "15min read",
+    "time": 15,
     "marks": "Mark as read",
-    "blogs":"Master web development power platform and become an in demand!"
+    "blogs":"Master web development power platform and become an in demand!",
+    "quantity": 1
   },
   {
     "id": 3,
@@ -28,9 +30,10 @@
     "personImg": "https://images.moneycontrol.com/static-mcnews/userphoto/2396.jpg?v=1680243063",
     "publishDate":"Mars 1,2022",
     "title":"How to get your first job as a self-taught programmer",
-    "time": "10min read",
+    "time": 10,
     "marks": "Mark as read",
-    "blogs":"Master microsoft power platform and become an in demand!"
+    "blogs":"Master microsoft power platform and become an in demand!",
+    "quantity": 1
   },
   {
     "id": 4,
@@ -39,8 +42,9 @@
     "personImg": "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=48,height=48/https://builtin.com/sites/www.builtin.com/files/styles/64_x_64/public/2022-12/mike-thomas-headshot.png",
     "publishDate":"Mars 12,2022",
     "title":"How to get your first job as a self-taught programmer",
-    "time": "07min read",
+    "time": 7 ,
     "marks": "Mark as read",
-    "blogs":"Master microsoft apple power platform and become an in demand!"
+    "blogs":"Master microsoft apple power platform and become an in demand!",
+    "quantity": 1
   }  
 ]

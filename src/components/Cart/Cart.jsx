@@ -5,7 +5,8 @@ import { faBook} from '@fortawesome/free-solid-svg-icons'
 
 const Cart = (props) => {
     const { id, imageUrl, name, personImg, publishDate, time, title, marks } = props.displayData;
-    console.log(props.displayData);
+    const handleBookmark = props.handleBookmark;
+    const handleMarks = props.handleMarks;
     return (
             <div className='m-5'>
             <div className='border rounded'>
@@ -23,8 +24,7 @@ const Cart = (props) => {
 
                     </div>
                     <div className='mr-3'>
-                        {time} <span onClick={()=>handBookmark}>
-                            <FontAwesomeIcon icon={faBook} />
+                        <span onClick={() => handleBookmark(props.displayData)}>{time} min read <FontAwesomeIcon icon={faBook} />
                         </span>
                     </div>
 
@@ -32,7 +32,7 @@ const Cart = (props) => {
                 <div className='text-4xl font-bold m-3'>
                     {title}
                 </div>
-                <button className="btn btn-outline btn-success m-3">{marks}</button>
+                <button onClick={() => handleMarks(props.displayData)} className="btn btn-outline btn-success m-3">{marks}</button>
                </div>
         </div>
     );
