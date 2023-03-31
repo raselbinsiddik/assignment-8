@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Monica J. White",
+    "imageUrl": "https://www.springboard.com/blog/wp-content/uploads/2022/08/programming-language-jobs-800x496.png",
+    "personImg": "https://secure.gravatar.com/avatar/b509b21d5c9a269292f335db088a6ce3?s=32&d=mm&r=g",
+    "publishDate":"August 5, 2022",
+    "title":"How to get your first job as a self-taught programmer",
+    "time": "9 minute read",
+    "marks": "Mark as read",
+    "blogs":"Master windows power platform and become an in demand!"
+  },
+  {
+    "id": 2,
+    "name": "@tete_escape",
+    "imageUrl": "https://img.freepik.com/premium-photo/security-data-technology-identity-verification-personal-privacy-concept-shield-icon-fingerprint-scan-symbol-random-numbers-code-virtual-screen-with-man-pointing-finger-laptop-computer_36367-2565.jpg?w=740",
+    "personImg": "https://avatar.freepik.com/6726661.jpg",
+    "publishDate":"April 2,2022",
+    "title":"How to get your first job as a self-taught programmer",
+    "time": "15min read",
+    "marks": "Mark as read",
+    "blogs":"Master web development power platform and become an in demand!"
+  },
+  {
+    "id": 3,
+    "name": "Ashis Keyl",
+    "imageUrl": "https://images.moneycontrol.com/static-mcnews/2021/07/software3-2-770x433.jpg?impolicy=website&width=770&height=431",
+    "personImg": "https://images.moneycontrol.com/static-mcnews/userphoto/2396.jpg?v=1680243063",
+    "publishDate":"Mars 1,2022",
+    "title":"How to get your first job as a self-taught programmer",
+    "time": "10min read",
+    "marks": "Mark as read",
+    "blogs":"Master microsoft power platform and become an in demand!"
+  },
+  {
+    "id": 4,
+    "name": "Mike Thomas",
+    "imageUrl": "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2021-12/artifitial-intelligence-career-paths-hed.png",
+    "personImg": "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=48,height=48/https://builtin.com/sites/www.builtin.com/files/styles/64_x_64/public/2022-12/mike-thomas-headshot.png",
+    "publishDate":"Mars 12,2022",
+    "title":"How to get your first job as a self-taught programmer",
+    "time": "07min read",
+    "marks": "Mark as read",
+    "blogs":"Master microsoft apple power platform and become an in demand!"
+  }  
+]
