@@ -11,7 +11,7 @@ const Carts = ({ carts }) => {
 
     return (
         <div>
-            <p className='p-5 text-2xl bold bg-slate-100 rounded-xl m-1'>BookMarked Blogs:{quantity}</p>
+            <p className='p-5 text-2xl bold bg-slate-200 rounded-xl m-1'>Bookmarked Blogs:{quantity}</p>
     
         </div>
     );

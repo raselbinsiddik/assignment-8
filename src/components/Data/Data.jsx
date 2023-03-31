@@ -28,25 +28,25 @@ const Data = () => {
     }
     
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 ms-20 mr-20 mt-10'>
+        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 ms-20 mr-20 mt-10'>
             <div className='col-span-2'>
                 {
                     loadData.map(displayData => <Cart displayData={displayData} key={displayData.id} handleBookmark={handleBookmark}
                     handleMarks={handleMarks}></Cart>)
                 }
             </div>
-            <div className='mt-7 '>
-                <div className='m-2 '>
-                    <h3 className='text-2xl bold text-blue-600 bg-red-100 p-7 rounded-xl'>
+            <div className='mt-5'>
+                <div className=' '>
+                    <h3 className='text-2xl bold text-blue-600  bg-slate-300 p-4 rounded-xl'>
                        <Mark marks={marks}></Mark>
                     </h3>
                 </div>
-                <div className='bold bg-slate-200 m-2'>
+                <div className='bold bg-slate-200 m-2 rounded-xl'>
                     <div className='p-5 text-3xl bold bg-slate-200 rounded-xl'>
                         <Carts carts={carts}> 
                         </Carts>  
                     </div>
-                    <div className='p-5 text-2xl bold bg-slate-200 rounded-xl'>
+                    <div className='p-5 text-xl bold bg-slate-200 rounded-xl'>
                         {
                             carts.map(mark => <Bookmark key={mark.id} mark={mark}></Bookmark>)
                         }
