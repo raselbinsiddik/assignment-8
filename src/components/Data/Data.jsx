@@ -11,7 +11,7 @@ const Data = () => {
     const [marks, setMarks] = useState([]);
 
     useEffect(() => {
-        fetch('data.json')
+        fetch('.//data.json')
             .then(res => res.json())
             .then(data => setLoadData(data));
     }, [])
