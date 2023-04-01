@@ -11,7 +11,7 @@ const Data = () => {
     const [marks, setMarks] = useState([]);
 
     useEffect(() => {
-        fetch('.//data.json')
+        fetch('./data.json')
             .then(res => res.json())
             .then(data => setLoadData(data));
     }, [])
@@ -19,7 +19,7 @@ const Data = () => {
     const handleBookmark = (displayData) => {
         const newData = [...carts, displayData];
         setCarts(newData);
-        // console.log(newData);
+        
         
     }
 

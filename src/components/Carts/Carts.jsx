@@ -8,7 +8,6 @@ const Carts = ({ carts }) => {
         quantity = quantity + displayData. quantity;
         
     }
-
     return (
         <div>
             <p className=' text-2xl bold bg-slate-200 rounded-xl '>Bookmarked Blogs:{quantity}</p>
